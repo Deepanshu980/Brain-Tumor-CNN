@@ -1,4 +1,11 @@
-# 🧠 Brain Tumor Detection Using CNN (MRI Images)
+# 🧠 Brain Tumor Detection using CNN & FastAPI
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![CNN](https://img.shields.io/badge/CNN-ComputerVision-red)
+![License](https://img.shields.io/badge/License-MIT-purple)
+
 
 This project implements a **Convolutional Neural Network (CNN)** to classify **brain tumor MRI images**.  
 The model learns visual patterns from MRI scans and accurately distinguishes tumor-related features using deep learning.
@@ -66,15 +73,9 @@ These results confirm the effectiveness of CNNs for medical image classification
 
 ---
 
-## 🛠️ Tech Stack
+## 🔍 Keywords
+Brain Tumor Detection, CNN, FastAPI, Deep Learning, MRI Image Classification, Medical AI, TensorFlow, Keras
 
-- **Language:** Python
-- **Framework:** TensorFlow / Keras
-- **Libraries:**
-  - NumPy
-  - Matplotlib
-  - OpenCV / PIL
-  - Scikit-learn
 - **Platform:** Kaggle / Local Machine
 
-
+This repository contains a Brain Tumor Classification system built using deep learning and FastAPI. The CNN model is trained on MRI brain images to classify the presence of tumors. The trained model is deployed using FastAPI, enabling users to upload MRI images via a REST API and receive predictions along with confidence scores. The project is suitable for research, learning, and deployment-ready medical image inference workflows.
